@@ -33,10 +33,10 @@ test:
 
 
 production:
-  adapter: postgres
+  adapter: mysql2
   database: preeti_production
   pool: 5
-  username: postgres
-  password: 'root'
+  username: root
+  password: 'bvc9090'
   host: localhost
 
