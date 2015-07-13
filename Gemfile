@@ -49,7 +49,6 @@ group :development, :test do
 
   gem 'bootstrap-sass', '~> 3.1.1.1'
 end
-
 group :production do
-  gem 'pg'  
+  gem 'pg'
 end
