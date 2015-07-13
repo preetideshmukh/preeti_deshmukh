@@ -16,27 +16,27 @@
 #
 
 development:
-   adapter: postgresql   
+   adapter: mysql2   
    database: preeti_development
    pool: 5
-   username: postgres
-   password: 'root'
+   username: root
+   password: 'bvc9090'
    host: localhost
 
 test:
-   adapter: postgresql
+   adapter: mysql2
    database: preeti_test
    pool: 5
    username: postgres
-   password: 'root'
+   password: 'bvc9090'
    host: localhost
 
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   database: preeti_production
   pool: 5
   username: postgres
-  password: 'root'
+  password: 'bvc9090'
   host: localhost
 
